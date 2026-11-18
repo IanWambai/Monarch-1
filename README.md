@@ -1,8 +1,8 @@
-# Monarch: African-Optimized AI Model
+# Monarch 1: African-Optimized AI Model
 
 ## Overview
 
-Monarch is a project built around the Monarch-1 model, a generative AI system fine-tuned from Mistral-7B-Instruct-v0.3 and optimized specifically for African linguistic, cultural, and economic contexts. Developed within the Africa Compute Fund (ACF), this project aims to bridge the gap between global AI models and Africa's unique needs.
+Monarch is a project built around the Monarch 1 model, a generative AI system fine-tuned from Mistral-7B-Instruct-v0.3 and optimized specifically for African linguistic, cultural, and economic contexts. Developed within the Africa Compute Fund (ACF), this project aims to bridge the gap between global AI models and Africa's unique needs.
 
 ## Features
 
@@ -60,7 +60,7 @@ model = AutoModelForCausalLM.from_pretrained(
 
 # Example prompt
 messages = [
-    {"role": "user", "content": "What impact can Monarch-1 have in Africa?"}
+    {"role": "user", "content": "What impact can Monarch 1 have in Africa?"}
 ]
 
 input_ids = tokenizer.apply_chat_template(conversation=messages, tokenize=True, add_generation_prompt=True, return_tensors='pt')
@@ -109,7 +109,7 @@ monarch/
 
 ## Ethical Use and Responsibility
 
-Monarch-1 is designed for ethical and responsible AI use. When using this model:
+Monarch 1 is designed for ethical and responsible AI use. When using this model:
 
 - Avoid generating harmful, biased, or misleading content
 - Ensure culturally sensitive responses
@@ -117,8 +117,8 @@ Monarch-1 is designed for ethical and responsible AI use. When using this model:
 
 ## License
 
-This project uses the Monarch-1 model which has its own license. See [the model card](https://huggingface.co/AfricaComputeFund/Monarch-1) for more details.
+This project uses the Monarch 1 model which has its own license. See [the model card](https://huggingface.co/AfricaComputeFund/Monarch-1) for more details.
 
 ## Acknowledgements
 
-This project leverages the Monarch-1 model from the Africa Compute Fund (ACF), fine-tuned from Mistral AI's Mistral-7B-Instruct-v0.3. 
+This project leverages the Monarch 1 model from the Africa Compute Fund (ACF), fine-tuned from Mistral AI's Mistral-7B-Instruct-v0.3. 
